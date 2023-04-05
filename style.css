@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+:root{
+    --font-family: 'Inter';
+    --font-colorprincipal:#ffffff;
+    --font-colorsec:#F9F9F9;
+    --font-aviso:#C0C0C0;
+    --color-botao:#167BF7;
+    --fundo:#000000;
+    --font-size-paragrafo:16px
+}
+body{
+    font-weight: 400;
+    font-family: var(--font-family);
+    color: var(--font-colorprincipal);
+    font-size: var(--font-size-paragrafo);
+    background-color: var(--fundo);
+}
+.secao{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: 100vh;
+    align-items: center;
+    
+}
+.primeira{
+    background-image: url(./img/background.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.titulo{
+    margin-bottom: 1em;
+    font-size: 28px;
+    font-weight: 700;
+}
+.divisao1{
+    margin:0 4em 0 2em;
+    text-align: center;
+}
+.botaoprim:hover{
+    background-color: #22d4fd;
+    border: 2px solid #22d4fd;
+}
+.botaosecu:hover{
+    background-color: #d0bfbf;;
+}
+.links__itembotao{
+    margin-top: 1.4em;
+    display: block;
+    padding: 1em;
+    border: 2px solid var(--color-botao);
+    background-color: var(--color-botao);
+    color: var(--font-colorprincipal);
+    border-radius: 6px;
+}
+.botaosecu{
+    border:2px solid var(--font-colorprincipal);
+    background-color: transparent;
+    margin-bottom: 1em;
+}
+.aviso{
+    font-size: 12px;
+    color: var(--font-aviso);
+}
+
+/*segunda section*/
+.segundasection{
+    margin:0 8em;
+}
+.titulosecao2{
+    align-items: center;
+    font-size: 48px;
+}
+.plataformas_imagem{
+    width: 90%;
+}
+.color_paragrafo{
+    color: var(--font-colorsec);
+}
+
+/*section 3*/
+.terceirasection{
+    margin: 0 8em;
+
+}
+.espacoimagem{
+    margin: 0 0 0 2em;
+}
+.botaosecao3:hover{
+    border: 2px solid #22d4fd;
+    background-color: #22d4fd;
+}
+.botaosecao3{
+    display: inline-block;
+}
+/* section 4*/
+.quartasection{
+    margin: 0 8em;
+    align-items: center;
+}
+/*section 5*/
+.quintasection{
+    text-align: center;
+}
+.titulo5{
+    text-align: center;
+}
+.lista{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.lista_item{
+    list-style-type: none;
+    text-align: center;
+}
+
+/*ultima e footer*/
+footer{
+    height: 100vh;
+}
+.titulo5{
+    padding-top: 2em;
+    margin: 0 0 2em 0;
+}
+.logo{
+    margin: 2em ;
+    text-align: center;
+}.termos:hover{
+    margin: 0 1em;
+    color: #167BF7;
+}
+.termos_contratos_e_outros{
+    color: var(--color-botao);
+    margin: 2em 0;
+    text-align: center;
+}
+.termos{
+    margin: 0.08em;
+    font-size: 16px;
+    color: var(--font-colorprincipal);
+}
+.paragrafo5{
+    margin-bottom: 1em ;
+    text-align: center;
+    color: var(--font-colorsec);
+    font-size: 14px;
+    margin:0 5em 1em 5em;
+}
